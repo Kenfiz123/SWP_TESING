@@ -8,6 +8,7 @@ class AdnApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("App context loaded successfully!");
 	}
 
 }
