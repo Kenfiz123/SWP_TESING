@@ -5,10 +5,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
-@ActiveProfiles("test") // Nếu bạn có cấu hình profile test, không thì xóa dòng này
+@ActiveProfiles("test") // dùng cấu hình test để bỏ qua security
 public class AdnApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 }
